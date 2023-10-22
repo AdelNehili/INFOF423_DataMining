@@ -5,7 +5,7 @@ from mpl_toolkits.mplot3d import Axes3D
 
 
 #____Filtering Chunks
-def filter_chunk(chunk, filters):
+def filter_chunk(chunk, filters, debug=False):
     """
     Filters a chunk based on provided conditions.
     It allows to add as much conditions as wanted. 
@@ -24,8 +24,8 @@ def filter_chunk(chunk, filters):
         #chunk[column] = pd.to_numeric(chunk[column], errors='coerce')
         chunk = chunk[(chunk[column] >= min_val) & (chunk[column] <= max_val)]
 
-
-    display_terminal_chunk_data(chunk)
+    if debug:
+        display_terminal_chunk_data(chunk)
     
     if 'timestamps_UTC' in chunk.columns:
         convert_dateString_to_timestamps(chunk)
