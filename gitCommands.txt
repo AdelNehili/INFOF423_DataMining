@@ -1,0 +1,18 @@
+###Creating repertory
+git remote add origin https://github.com/AdelNehili/INFOF423_DataMining.git
+git push -u origin master
+
+
+
+### Download a code
+git clone https://github.com/AdelNehili/INFOF423_DataMining.git
+
+
+### Update a downloaded code
+git status
+git pull
+
+####Commit a new code!!
+git add .
+git commit -a -m "Refactor Class Player_IA"
+git push

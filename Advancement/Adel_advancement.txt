@@ -1,0 +1,14 @@
+13/10/2023 :
+        -Learning Panda/Tabulate libraries basis
+        -Cleaning csv interpretation, the delimiter is a ";". By default, it's a ",". Now we interprete each column as it should
+
+17/10/2023 :
+        -Developement of displaying tools (2D/3D graphs)
+        -Code optimisation to get a more logical/dev-friendly program. Introduction of dictionnary as function parameter.
+                -Modify the main code to make sure we just have to write once the columns we want to filter and displaying 
+                (We just have to summon the "Configuration dictionary")
+
+                -config["columns"] are all the columns that we keep from initial dataFrame
+                -config["filters"] are the condition the fulfill to continue
+                
+
