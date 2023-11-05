@@ -1,0 +1,4 @@
+- Find technical information on the trains
+    - Differences between sensor modèles
+    - Differences between engines
+    - Components wear out (fatigue)

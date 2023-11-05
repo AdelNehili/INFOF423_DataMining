@@ -1,0 +1,8 @@
+- How to detect anomalies
+    - Single columns?
+    - Combination of columns?
+    - All columns?
+    - Per PC (cooling system)?
+- How to analyze anomalies?
+    - Manually?
+    - Automatically?

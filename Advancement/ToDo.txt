@@ -1,9 +1,11 @@
-- Read given documentation
-- Implement timeseries forecasting (auloin)
+- Read given documentation (DONE)
+- Implement Anomaly dectection algorithms (auloin, tochi.mizu)
+    - Implement timeseries forecasting
+    - Outlier dectection
+    - UAD (Univariate Anomaly Detection)
+    - MAD (Multivariate Anomaly Detection)
+    - TSAD (Time-Series Anomaly Detection)
 - Create heatmap of trains (musti)
 - Create summary plots (soumaya)
-- Find technical information on the trains (tochi.mizu)
-    - Differences between sensor modèles
-    - Differences between engines
-    - Components wear out (fatigue)
-    
+- Read "Anomaly dectection ... for preventive maintenance" and get main ideas (soumaya)
+
