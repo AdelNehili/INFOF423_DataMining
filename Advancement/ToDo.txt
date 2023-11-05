@@ -1,1 +1,9 @@
--Read given documentation
+- Read given documentation
+- Implement timeseries forecasting (auloin)
+- Create heatmap of trains (musti)
+- Create summary plots (soumaya)
+- Find technical information on the trains (tochi.mizu)
+    - Differences between sensor modèles
+    - Differences between engines
+    - Components wear out (fatigue)
+    

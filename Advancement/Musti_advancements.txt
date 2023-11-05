@@ -1,0 +1,6 @@
+???
+- Fetch weather data
+
+05/11: Créer une heatmap par train pour visualiser:
+    - les terminus/ateliers 
+    - détecter les points critiques (les lieux où les trains ralentissent énormément sans être des gares) 

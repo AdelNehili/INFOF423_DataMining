@@ -1,0 +1,3 @@
+05/11
+- Certains vehicules (ex 127) passent bcp de temps à l'atelier et ont peu de mesures
+- Pas de duplicate: `data.duplicated(subset=("timestamps_UTC", "lat", "lon"), keep='first').sum()`

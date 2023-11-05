@@ -10,5 +10,8 @@
 
                 -config["columns"] are all the columns that we keep from initial dataFrame
                 -config["filters"] are the condition the fulfill to continue
-                
 
+05/11
+        - Les trains ont les mêmes modèles de pièces, certaines plus usées que d'autres
+        - Les trains peuvent avoir des capteurs différents
+        - Vérifier si au cours de l'année y a usure (selon certains paramètres, ex temp, pression, etc.)
