@@ -1,0 +1,108 @@
+column_name (lat) with a threshold (2): 
+	-The mean value: 50.87640597911398 
+	-The standart deviation: 0.3133396151749275
+Here's the lengths: 
+	-data: 17679273 
+	-anomalies: 993400 
+	-ratio: 0.06%
+____________________________________________________________
+
+column_name (lon) with a threshold (2): 
+	-The mean value: 4.228568007431513 
+	-The standart deviation: 0.5981552701785625
+Here's the lengths: 
+	-data: 17679273 
+	-anomalies: 386324 
+	-ratio: 0.02%
+____________________________________________________________
+
+column_name (RS_E_OilPress_PC1) with a threshold (2): 
+	-The mean value: 263.61151387326413 
+	-The standart deviation: 115.2382379212969
+Here's the lengths: 
+	-data: 17679273 
+	-anomalies: 1420110 
+	-ratio: 0.08%
+____________________________________________________________
+
+column_name (RS_E_OilPress_PC2) with a threshold (2): 
+	-The mean value: 270.6874163829788 
+	-The standart deviation: 116.11684306627679
+Here's the lengths: 
+	-data: 17679273 
+	-anomalies: 1452999 
+	-ratio: 0.08%
+____________________________________________________________
+
+column_name (RS_E_RPM_PC1) with a threshold (2): 
+	-The mean value: 912.2489343794357 
+	-The standart deviation: 383.3051442467127
+Here's the lengths: 
+	-data: 17679273 
+	-anomalies: 2100568 
+	-ratio: 0.12%
+____________________________________________________________
+
+column_name (RS_E_RPM_PC2) with a threshold (2): 
+	-The mean value: 907.9636035472506 
+	-The standart deviation: 388.47094887629413
+Here's the lengths: 
+	-data: 17679273 
+	-anomalies: 2163870 
+	-ratio: 0.12%
+____________________________________________________________
+
+column_name (RS_E_InAirTemp_PC1) with a threshold (2): 
+	-The mean value: 32.024220463951686 
+	-The standart deviation: 328.0039606502876
+Here's the lengths: 
+	-data: 17679273 
+	-anomalies: 448 
+	-ratio: 0.00%
+____________________________________________________________
+
+column_name (RS_E_InAirTemp_PC2) with a threshold (2): 
+	-The mean value: 32.33413663925865 
+	-The standart deviation: 347.9991510425584
+Here's the lengths: 
+	-data: 17679273 
+	-anomalies: 505 
+	-ratio: 0.00%
+____________________________________________________________
+
+column_name (RS_E_WatTemp_PC1) with a threshold (2): 
+	-The mean value: 76.9316607487556 
+	-The standart deviation: 13.654621742549402
+Here's the lengths: 
+	-data: 17679273 
+	-anomalies: 888354 
+	-ratio: 0.05%
+____________________________________________________________
+
+column_name (RS_E_WatTemp_PC2) with a threshold (2): 
+	-The mean value: 76.14234380101108 
+	-The standart deviation: 14.528700028013516
+Here's the lengths: 
+	-data: 17679273 
+	-anomalies: 1001893 
+	-ratio: 0.06%
+____________________________________________________________
+
+column_name (RS_T_OilTemp_PC1) with a threshold (2): 
+	-The mean value: 76.54692861595385 
+	-The standart deviation: 14.503685984695231
+Here's the lengths: 
+	-data: 17679273 
+	-anomalies: 1044676 
+	-ratio: 0.06%
+____________________________________________________________
+
+column_name (RS_T_OilTemp_PC2) with a threshold (2): 
+	-The mean value: 76.16182060814535 
+	-The standart deviation: 15.35039804810421
+Here's the lengths: 
+	-data: 17679273 
+	-anomalies: 1041740 
+	-ratio: 0.06%
+____________________________________________________________
+
