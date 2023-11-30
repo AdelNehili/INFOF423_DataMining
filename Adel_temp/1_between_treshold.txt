@@ -1,0 +1,240 @@
+column_name (lat) with a threshold (2): 
+	-The mean value: 50.87654080928703 
+	-The standard deviation: 0.3132998164546818
+Here's the setup: 
+	-data: 17665748 
+	-anomalies: 993094 
+	-ratio: 0.06% 
+	-treshold min: 0.05 
+	-treshold max: 0.1
+		-Vehicle ID 196 appeared 0.08% of times in the anomalie lat.
+____________________________________________________________
+
+column_name (lat) with a threshold (2): 
+	-The mean value: 50.87654080928703 
+	-The standard deviation: 0.3132998164546818
+Here's the setup: 
+	-data: 17665748 
+	-anomalies: 993094 
+	-ratio: 0.06% 
+	-treshold min: 0.05 
+	-treshold max: 0.1
+		-Vehicle ID 140 appeared 0.07% of times in the anomalie lat.
+____________________________________________________________
+
+column_name (lat) with a threshold (2): 
+	-The mean value: 50.87654080928703 
+	-The standard deviation: 0.3132998164546818
+Here's the setup: 
+	-data: 17665748 
+	-anomalies: 993094 
+	-ratio: 0.06% 
+	-treshold min: 0.05 
+	-treshold max: 0.1
+		-Vehicle ID 197 appeared 0.07% of times in the anomalie lat.
+____________________________________________________________
+
+column_name (lat) with a threshold (2): 
+	-The mean value: 50.87654080928703 
+	-The standard deviation: 0.3132998164546818
+Here's the setup: 
+	-data: 17665748 
+	-anomalies: 993094 
+	-ratio: 0.06% 
+	-treshold min: 0.05 
+	-treshold max: 0.1
+		-Vehicle ID 115 appeared 0.07% of times in the anomalie lat.
+____________________________________________________________
+
+column_name (lat) with a threshold (2): 
+	-The mean value: 50.87654080928703 
+	-The standard deviation: 0.3132998164546818
+Here's the setup: 
+	-data: 17665748 
+	-anomalies: 993094 
+	-ratio: 0.06% 
+	-treshold min: 0.05 
+	-treshold max: 0.1
+		-Vehicle ID 174 appeared 0.07% of times in the anomalie lat.
+____________________________________________________________
+
+column_name (lat) with a threshold (2): 
+	-The mean value: 50.87654080928703 
+	-The standard deviation: 0.3132998164546818
+Here's the setup: 
+	-data: 17665748 
+	-anomalies: 993094 
+	-ratio: 0.06% 
+	-treshold min: 0.05 
+	-treshold max: 0.1
+		-Vehicle ID 152 appeared 0.06% of times in the anomalie lat.
+____________________________________________________________
+
+column_name (lat) with a threshold (2): 
+	-The mean value: 50.87654080928703 
+	-The standard deviation: 0.3132998164546818
+Here's the setup: 
+	-data: 17665748 
+	-anomalies: 993094 
+	-ratio: 0.06% 
+	-treshold min: 0.05 
+	-treshold max: 0.1
+		-Vehicle ID 171 appeared 0.06% of times in the anomalie lat.
+____________________________________________________________
+
+column_name (lat) with a threshold (2): 
+	-The mean value: 50.87654080928703 
+	-The standard deviation: 0.3132998164546818
+Here's the setup: 
+	-data: 17665748 
+	-anomalies: 993094 
+	-ratio: 0.06% 
+	-treshold min: 0.05 
+	-treshold max: 0.1
+		-Vehicle ID 108 appeared 0.06% of times in the anomalie lat.
+____________________________________________________________
+
+column_name (lat) with a threshold (2): 
+	-The mean value: 50.87654080928703 
+	-The standard deviation: 0.3132998164546818
+Here's the setup: 
+	-data: 17665748 
+	-anomalies: 993094 
+	-ratio: 0.06% 
+	-treshold min: 0.05 
+	-treshold max: 0.1
+		-Vehicle ID 173 appeared 0.06% of times in the anomalie lat.
+____________________________________________________________
+
+column_name (lat) with a threshold (2): 
+	-The mean value: 50.87654080928703 
+	-The standard deviation: 0.3132998164546818
+Here's the setup: 
+	-data: 17665748 
+	-anomalies: 993094 
+	-ratio: 0.06% 
+	-treshold min: 0.05 
+	-treshold max: 0.1
+		-Vehicle ID 106 appeared 0.05% of times in the anomalie lat.
+____________________________________________________________
+
+column_name (lon) with a threshold (2): 
+	-The mean value: 4.228489605660433 
+	-The standard deviation: 0.5981953777617903
+Here's the setup: 
+	-data: 17665748 
+	-anomalies: 386170 
+	-ratio: 0.02% 
+	-treshold min: 0.05 
+	-treshold max: 0.1
+		-Vehicle ID 172 appeared 0.09% of times in the anomalie lon.
+____________________________________________________________
+
+column_name (lon) with a threshold (2): 
+	-The mean value: 4.228489605660433 
+	-The standard deviation: 0.5981953777617903
+Here's the setup: 
+	-data: 17665748 
+	-anomalies: 386170 
+	-ratio: 0.02% 
+	-treshold min: 0.05 
+	-treshold max: 0.1
+		-Vehicle ID 136 appeared 0.08% of times in the anomalie lon.
+____________________________________________________________
+
+column_name (lon) with a threshold (2): 
+	-The mean value: 4.228489605660433 
+	-The standard deviation: 0.5981953777617903
+Here's the setup: 
+	-data: 17665748 
+	-anomalies: 386170 
+	-ratio: 0.02% 
+	-treshold min: 0.05 
+	-treshold max: 0.1
+		-Vehicle ID 186 appeared 0.08% of times in the anomalie lon.
+____________________________________________________________
+
+column_name (lon) with a threshold (2): 
+	-The mean value: 4.228489605660433 
+	-The standard deviation: 0.5981953777617903
+Here's the setup: 
+	-data: 17665748 
+	-anomalies: 386170 
+	-ratio: 0.02% 
+	-treshold min: 0.05 
+	-treshold max: 0.1
+		-Vehicle ID 177 appeared 0.08% of times in the anomalie lon.
+____________________________________________________________
+
+column_name (lon) with a threshold (2): 
+	-The mean value: 4.228489605660433 
+	-The standard deviation: 0.5981953777617903
+Here's the setup: 
+	-data: 17665748 
+	-anomalies: 386170 
+	-ratio: 0.02% 
+	-treshold min: 0.05 
+	-treshold max: 0.1
+		-Vehicle ID 142 appeared 0.07% of times in the anomalie lon.
+____________________________________________________________
+
+column_name (lon) with a threshold (2): 
+	-The mean value: 4.228489605660433 
+	-The standard deviation: 0.5981953777617903
+Here's the setup: 
+	-data: 17665748 
+	-anomalies: 386170 
+	-ratio: 0.02% 
+	-treshold min: 0.05 
+	-treshold max: 0.1
+		-Vehicle ID 128 appeared 0.07% of times in the anomalie lon.
+____________________________________________________________
+
+column_name (lon) with a threshold (2): 
+	-The mean value: 4.228489605660433 
+	-The standard deviation: 0.5981953777617903
+Here's the setup: 
+	-data: 17665748 
+	-anomalies: 386170 
+	-ratio: 0.02% 
+	-treshold min: 0.05 
+	-treshold max: 0.1
+		-Vehicle ID 191 appeared 0.05% of times in the anomalie lon.
+____________________________________________________________
+
+column_name (RS_E_OilPress_PC1) with a threshold (2): 
+	-The mean value: 263.5806663866557 
+	-The standard deviation: 115.17347213433065
+Here's the setup: 
+	-data: 17665748 
+	-anomalies: 1415423 
+	-ratio: 0.08% 
+	-treshold min: 0.05 
+	-treshold max: 0.1
+		-Vehicle ID 131 appeared 0.07% of times in the anomalie RS_E_OilPress_PC1.
+____________________________________________________________
+
+column_name (RS_E_OilPress_PC2) with a threshold (2): 
+	-The mean value: 270.6819551506368 
+	-The standard deviation: 116.11184643723426
+Here's the setup: 
+	-data: 17665748 
+	-anomalies: 1452705 
+	-ratio: 0.08% 
+	-treshold min: 0.05 
+	-treshold max: 0.1
+		-Vehicle ID 119 appeared 0.07% of times in the anomalie RS_E_OilPress_PC2.
+____________________________________________________________
+
+column_name (RS_E_WatTemp_PC2) with a threshold (2): 
+	-The mean value: 76.14383710881583 
+	-The standard deviation: 14.52630442456177
+Here's the setup: 
+	-data: 17665748 
+	-anomalies: 1001534 
+	-ratio: 0.06% 
+	-treshold min: 0.05 
+	-treshold max: 0.1
+		-Vehicle ID 128 appeared 0.08% of times in the anomalie RS_E_WatTemp_PC2.
+____________________________________________________________
+

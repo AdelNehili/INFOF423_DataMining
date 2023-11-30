@@ -1,0 +1,18 @@
+Collecting nbformat
+  Obtaining dependency information for nbformat from https://files.pythonhosted.org/packages/f4/e7/ef30a90b70eba39e675689b9eaaa92530a71d7435ab8f9cae520814e0caf/nbformat-5.9.2-py3-none-any.whl.metadata
+  Downloading nbformat-5.9.2-py3-none-any.whl.metadata (3.4 kB)
+Collecting fastjsonschema (from nbformat)
+  Obtaining dependency information for fastjsonschema from https://files.pythonhosted.org/packages/63/e9/d3dca06ea6b8e58e65716973bc7d9bee9bc39ce233595aa04d04e89a1089/fastjsonschema-2.19.0-py3-none-any.whl.metadata
+  Downloading fastjsonschema-2.19.0-py3-none-any.whl.metadata (2.0 kB)
+Requirement already satisfied: jsonschema>=2.6 in c:\users\sandra\appdata\local\programs\python\python311\lib\site-packages (from nbformat) (4.17.1)
+Requirement already satisfied: jupyter-core in c:\users\sandra\appdata\roaming\python\python311\site-packages (from nbformat) (5.3.1)
+Requirement already satisfied: traitlets>=5.1 in c:\users\sandra\appdata\roaming\python\python311\site-packages (from nbformat) (5.9.0)
+Requirement already satisfied: attrs>=17.4.0 in c:\users\sandra\appdata\local\programs\python\python311\lib\site-packages (from jsonschema>=2.6->nbformat) (22.1.0)
+Requirement already satisfied: pyrsistent!=0.17.0,!=0.17.1,!=0.17.2,>=0.14.0 in c:\users\sandra\appdata\local\programs\python\python311\lib\site-packages (from jsonschema>=2.6->nbformat) (0.19.2)
+Requirement already satisfied: platformdirs>=2.5 in c:\users\sandra\appdata\local\programs\python\python311\lib\site-packages (from jupyter-core->nbformat) (2.5.2)
+Requirement already satisfied: pywin32>=300 in c:\users\sandra\appdata\roaming\python\python311\site-packages (from jupyter-core->nbformat) (306)
+Downloading nbformat-5.9.2-py3-none-any.whl (77 kB)
+   ---------------------------------------- 0.0/77.6 kB ? eta -:--:--   ---------------------------------------- 77.6/77.6 kB 2.2 MB/s eta 0:00:00
+Downloading fastjsonschema-2.19.0-py3-none-any.whl (23 kB)
+Installing collected packages: fastjsonschema, nbformat
+Successfully installed fastjsonschema-2.19.0 nbformat-5.9.2

@@ -1,0 +1,24 @@
+column_name (RS_E_OilPress_PC1) with a threshold (2): 
+	-The mean value: 263.5806663866557 
+	-The standard deviation: 115.17347213433065
+Here's the setup: 
+	-data: 17665748 
+	-anomalies: 1415423 
+	-ratio: 0.08% 
+	-treshold min: 0.05 
+	-treshold max: 0.1
+		-Vehicle ID 196 appeared 0.17% of times in the anomalie RS_E_OilPress_PC1.
+____________________________________________________________
+
+column_name (RS_E_OilPress_PC2) with a threshold (2): 
+	-The mean value: 270.6819551506368 
+	-The standard deviation: 116.11184643723426
+Here's the setup: 
+	-data: 17665748 
+	-anomalies: 1452705 
+	-ratio: 0.08% 
+	-treshold min: 0.05 
+	-treshold max: 0.1
+		-Vehicle ID 131 appeared 0.10% of times in the anomalie RS_E_OilPress_PC2.
+____________________________________________________________
+
