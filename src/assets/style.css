@@ -1,0 +1,22 @@
+html {
+    min-height: 100%;
+}
+
+html,body {
+    height: 100%;
+}
+
+.aside {
+    height: 100vh;
+    overflow-y: auto;
+    border-right: 1px solid #dee2e6;
+}
+
+.main {
+    display: flex;
+}
+
+.content {
+    width: calc(100% - 300px);
+    overflow-x: hidden;
+}
