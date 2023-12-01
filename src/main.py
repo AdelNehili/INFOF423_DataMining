@@ -32,4 +32,3 @@ filtered_chunk = dm.filter_chunk(aimed_data, config["filters"])
 
 #dm.display_2D_graph(filtered_chunk,config["columns"][0],config["columns"][3])
 #dm.display_3D_graph_linked(filtered_chunk,config["columns"][0],config["columns"][3],config["columns"][4])
-

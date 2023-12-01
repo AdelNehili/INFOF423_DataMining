@@ -1,0 +1,75 @@
+25/11:
+    -Via UAD (Univariate Anomaly Detection), we created a file that track all the vehicules that got issues
+
+27/11:
+    -Les trains suivants sont apparus dans [10%,+++] des problèmes lorsqu'il y a eu des problèmes dans la catégorie en question:
+        -106:
+            -Vehicle ID 106 appeared 0.34% of times in the anomalie RS_E_InAirTemp_PC1.
+            -Vehicle ID 106 appeared 0.61% of times in the anomalie RS_E_InAirTemp_PC2.
+        -107:
+            -Vehicle ID 107 appeared 0.11% of times in the anomalie RS_E_InAirTemp_PC1.
+        -131:
+            -Vehicle ID 131 appeared 0.10% of times in the anomalie RS_E_OilPress_PC2.
+        -196:
+            -Vehicle ID 196 appeared 0.17% of times in the anomalie RS_E_OilPress_PC1.
+            -Vehicle ID 196 appeared 0.19% of times in the anomalie RS_E_InAirTemp_PC1.
+        
+    ____________________________________________________________________________________________________________________________________________________
+    -Les trains suivants sont apparus dans [5%,10%[ des problèmes lorsqu'il y a eu des problèmes dans la catégorie en question:
+
+        -106:
+            -Vehicle ID 106 appeared 0.05% of times in the anomalie lat.
+        -131:
+            Vehicle ID 131 appeared 0.07% of times in the anomalie RS_E_OilPress_PC1.
+        -196:
+            Vehicle ID 196 appeared 0.08% of times in the anomalie lat.
+        -128:
+            -Vehicle ID 128 appeared 0.08% of times in the anomalie RS_E_WatTemp_PC2.
+            -Vehicle ID 128 appeared 0.07% of times in the anomalie lon.
+        -110:
+            Vehicle ID 110 appeared 0.06% of times in the anomalie RS_E_InAirTemp_PC2.
+        -103:
+            -Vehicle ID 103 appeared 0.07% of times in the anomalie RS_E_InAirTemp_PC1.
+
+        -119:
+            -Vehicle ID 119 appeared 0.07% of times in the anomalie RS_E_OilPress_PC2.
+        
+        ________________________________Meh
+        - 140:
+            - Vehicle ID 140 appeared 0.07% of times in the anomalie lat.
+        - 197:
+            - Vehicle ID 197 appeared 0.07% of times in the anomalie lat.
+        - 115:
+            - Vehicle ID 115 appeared 0.07% of times in the anomalie lat.
+        - 174:
+            - Vehicle ID 174 appeared 0.07% of times in the anomalie lat.
+        - 152:
+            - Vehicle ID 152 appeared 0.06% of times in the anomalie lat.
+        - 171:
+            - Vehicle ID 171 appeared 0.06% of times in the anomalie lat.
+        - 108:
+            - Vehicle ID 108 appeared 0.06% of times in the anomalie lat.
+        - 173:
+            - Vehicle ID 173 appeared 0.06% of times in the anomalie lat.
+        - 172:
+            - Vehicle ID 172 appeared 0.09% of times in the anomalie lon.
+        - 136:
+            - Vehicle ID 136 appeared 0.08% of times in the anomalie lon.
+        - 186:
+            - Vehicle ID 186 appeared 0.08% of times in the anomalie lon.
+        - 177:
+            - Vehicle ID 177 appeared 0.08% of times in the anomalie lon.
+        - 142:
+            - Vehicle ID 142 appeared 0.07% of times in the anomalie lon.
+        - 191:
+            - Vehicle ID 191 appeared 0.05% of times in the anomalie lon.
+
+30/11:
+    -Il semblerait que le train 106 pose problème après avoir retiré la data aillant RS_E_InAirTemp_PC1 > 35 000:
+        -Vehicle ID 106 appeared 0.62% of times in the anomalie RS_E_InAirTemp_PC2.
+            ===> Donc, on check le graph RS_E_InAirTemp_PC2 pour trouver un treshold (Basé sur le graph "Probleme_RS_E_InAirTemp_PC2.JPG", ce sera 1000)
+
+    -Il semblerait que le train 196 pose problème après avoir retiré la data aillant RS_E_InAirTemp_PC2 > 1000:
+        -Vehicle ID 196 appeared 0.17% of times in the anomalie RS_E_OilPress_PC1.
+            ===> Donc, on check le graph RS_E_OilPress_PC1 pour trouver un treshold (Basé sur le graph "Probleme_RS_E_OilPress_PC1.JPG", ce sera 689)
+    -
