@@ -2,7 +2,7 @@ import dash_mantine_components as dmc
 from dash import Dash, html, Input, Output, State, callback, dcc, dash_table
 import plotly.express as px
 import json
-from utils import get_data_files, load_df, get_vehicule_ids, COLS
+from utils import get_data_files, load_df, df_to_dict, filter_df, get_vehicule_ids, COLS
 
 data = None
 
@@ -80,14 +80,14 @@ app.layout = dmc.MantineProvider(
                             fluid=True,
                             p="xs",
                             children=[
-                                # html.Div(dash_table.DataTable(
-                                #     id="full-data",
-                                #     sort_action="native",
-                                #     sort_mode="single",
-                                #     page_size=10,
-                                #     style_cell={'textAlign': 'left'},
-                                #     style_table={'height': 'auto', 'overflowY': 'auto', 'overflowX': 'auto'}, 
-                                # )),
+                                html.Div(dash_table.DataTable(
+                                    id="full-data",
+                                    sort_action="native",
+                                    sort_mode="single",
+                                    page_size=10,
+                                    style_cell={'textAlign': 'left'},
+                                    style_table={'height': 'auto', 'overflowY': 'auto', 'overflowX': 'auto'}, 
+                                )),
                                 # dcc.Graph(figure={}, id='logs-count-per-veh')
                             ]
                         )
@@ -117,6 +117,15 @@ def select_features(value):
 @callback(Output("vehicules-filter", "data"), Input("trains-select", "value"))
 def select_features(value):
     return value
+
+@callback(
+    Output("full-data", "data"),
+    Input("dataset-filter", "data"),
+    Input("features-filter", "data"),
+    Input("vehicules-filter", "data"),
+)
+def select_features(dataset_filter, features_filter, vehicules_filter):
+    return df_to_dict(filter_df(load_df(dataset_filter), {"vehicules": vehicules_filter, "features": features_filter}))
 
 
 if __name__ == '__main__':

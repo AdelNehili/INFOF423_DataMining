@@ -66,3 +66,14 @@ def json_to_df(data):
     if not data:
         return
     return pd.read_json(StringIO(data), orient='split')
+
+def filter_df(df, filters):
+    if df is None:
+        return
+    filtered_df = df
+    if "vehicules" in filters and filters["vehicules"]:
+        filtered_df = filtered_df[filtered_df['mapped_veh_id'].isin(list(map(int, filters["vehicules"])))]
+    if "features" in filters and filters["features"]:
+        filtered_df = filtered_df[filters["features"]]
+    
+    return filtered_df
