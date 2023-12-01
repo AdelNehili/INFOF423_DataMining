@@ -1,3 +1,8 @@
+:root {
+    --app-header: 54px;
+    --aside-width: 300px;
+}
+
 html {
     min-height: 100%;
 }
@@ -6,9 +11,12 @@ html,body {
     height: 100%;
 }
 
+.app-header {
+    height: var(--app-header);
+}
+
 .aside {
-    height: 100vh;
-    overflow-y: auto;
+    width: var(--aside-width);
     border-right: 1px solid #dee2e6;
 }
 
@@ -17,6 +25,11 @@ html,body {
 }
 
 .content {
-    width: calc(100% - 300px);
+    width: calc(100% - var(--aside-width));
     overflow-x: hidden;
+}
+
+.aside, .content {
+    height: calc(100vh - var(--app-header));
+    overflow-y: auto;
 }

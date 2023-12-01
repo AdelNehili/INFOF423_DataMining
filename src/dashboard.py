@@ -1,6 +1,7 @@
 import dash_mantine_components as dmc
 from dash import Dash, html, Input, Output, State, callback, dcc, dash_table
 import plotly.express as px
+import dash_leaflet as dl
 import json
 from utils import get_data_files, load_df, df_to_dict, filter_df, get_vehicule_ids, COLS
 
@@ -34,6 +35,7 @@ app.layout = dmc.MantineProvider(
             p=0,
             children=[
                 dmc.Header(
+                    className="app-header",
                     p="xs",
                     height="auto",
                     children=[
@@ -88,6 +90,7 @@ app.layout = dmc.MantineProvider(
                                     style_cell={'textAlign': 'left'},
                                     style_table={'height': 'auto', 'overflowY': 'auto', 'overflowX': 'auto'}, 
                                 )),
+                                dl.Map(dl.TileLayer(), center=[50.50,4.47], zoom=7, style={'height': '50vh'})
                                 # dcc.Graph(figure={}, id='logs-count-per-veh')
                             ]
                         )
