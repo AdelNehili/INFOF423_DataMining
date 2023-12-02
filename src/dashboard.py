@@ -3,9 +3,10 @@ from dash import Dash, html, Input, Output, State, callback, dcc, dash_table
 import plotly.express as px
 import dash_leaflet as dl
 import json
-from utils import get_data_files, load_df, df_to_dict, filter_df, get_vehicule_ids, COLS
+from utils import get_data_files, df_to_dict, get_vehicule_ids, COLS
+from store import DataStore
 
-data = None
+dataStore = DataStore()
 
 app = Dash(
     __name__,
@@ -111,7 +112,7 @@ def select_data_file(value):
 
 @callback(Output("trains-select", "data"), Input("dataset-select", "value"))
 def select_data_file(value):
-    return get_vehicule_ids(load_df(value))
+    return get_vehicule_ids(dataStore.get_df(value))
 
 @callback(Output("features-filter", "data"), Input("features-select", "value"))
 def select_features(value):
@@ -128,7 +129,7 @@ def select_features(value):
     Input("vehicules-filter", "data"),
 )
 def select_features(dataset_filter, features_filter, vehicules_filter):
-    return df_to_dict(filter_df(load_df(dataset_filter), {"vehicules": vehicules_filter, "features": features_filter}))
+    return df_to_dict(dataStore.filter(dataset_filter, {"vehicules": vehicules_filter, "features": features_filter}))
 
 
 if __name__ == '__main__':
